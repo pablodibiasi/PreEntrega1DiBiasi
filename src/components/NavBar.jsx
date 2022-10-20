@@ -9,6 +9,7 @@ import Container from '@mui/material/Container'
 import Button from '@mui/material/Button'
 import MenuItem from '@mui/material/MenuItem'
 import logo from '../../src/imagenes/logoelemento.jpg'
+import CartWidjet from './CartWidjet'
 
 const pages = ['Productos', 'precios', 'contacto']
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
@@ -69,7 +70,6 @@ function ResponsiveAppBar() {
               onClick={handleOpenNavMenu}
               color="inherit"
             />
-
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -148,6 +148,7 @@ function ResponsiveAppBar() {
               ))}
             </Menu>
           </Box>
+          <CartWidjet />
         </Toolbar>
       </Container>
     </AppBar>
