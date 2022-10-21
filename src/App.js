@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <ResponsiveAppBar />
-      <ItemListContainer />
+      <ItemListContainer greeting={true} />
     </div>
   )
 }
