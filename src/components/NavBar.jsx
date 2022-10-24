@@ -11,7 +11,7 @@ import MenuItem from '@mui/material/MenuItem'
 import logo from '../../src/imagenes/logoelemento.jpg'
 import CartWidjet from './CartWidjet'
 
-const pages = ['Productos', 'precios', 'contacto']
+const pages = ['Productos', 'Info', 'Contacto']
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout']
 
 function ResponsiveAppBar() {
@@ -34,7 +34,7 @@ function ResponsiveAppBar() {
   }
 
   return (
-    <AppBar style={{ background: 'brown' }} position="static">
+    <AppBar style={{ background: 'rgb(117, 62, 11)' }} position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <button className="buttonIndex">
